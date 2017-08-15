@@ -1,0 +1,21 @@
+{
+  "name": "day3_jquery_alike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -w",
+    "start": "live-server .",
+    "dev": "npm run tsc | npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "systemjs": "^0.20.17"
+  }
+}

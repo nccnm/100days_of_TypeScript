@@ -1,0 +1,11 @@
+{
+  "persons": [
+    { "id": 1, "name": "hai nguyen", "email": "hai.nguyen@axonactive.com" },
+    { "id": 2, "name": "vuong huynh", "email": "vuong.huynh@axonactive.com" },
+    { "id": 3, "name": "ha ton", "email": "ha.ton@axonactive.com" },
+    { "id": 4, "name": "an ha", "email": "an.ha@axonactive.com" },
+    { "id": 5, "name": "dung nguyen", "email": "dung.nguyen@axonactive.com" },
+    { "id": 6, "name": "lan nguyen", "email": "lan.nguyenn@axonactive.com" },
+    { "id": 7, "name": "binh tieu", "email": "binh.tieu@axonactive.com" }
+  ]
+}
