@@ -18,6 +18,10 @@ export default class App {
         this.express.use(text());
         this.express.use(urlencoded());
 
+        this.express.use(function(req, res) {
+            res.status(404).send({url: req.originalUrl + ' not found'})
+          });
+
         this.mountRoutes();
     }
 

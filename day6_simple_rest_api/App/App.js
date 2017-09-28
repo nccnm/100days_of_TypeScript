@@ -10,6 +10,9 @@ class App {
         this.express.use(body_parser_1.raw());
         this.express.use(body_parser_1.text());
         this.express.use(body_parser_1.urlencoded());
+        this.express.use(function (req, res) {
+            res.status(404).send({ url: req.originalUrl + ' not found' });
+        });
         this.mountRoutes();
     }
     start() {
