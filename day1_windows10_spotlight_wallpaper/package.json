@@ -1,0 +1,22 @@
+{
+  "name": "typescript_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "electron": "electron .",
+    "dev": "npm run build && npm run electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-jetpack": "^1.1.0",
+    "wallpaper": "^2.5.0"
+  },
+  "devDependencies": {
+    "electron": "1.6.11",
+    "typescript": "^2.4.2"
+  }
+}
