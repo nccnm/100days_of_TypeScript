@@ -1,0 +1,41 @@
+{
+  "name": "day17_faker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "nodemon ./__test__/index.js",
+    "dev": "npm run build & npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "@types/jest": "^21.1.1",
+    "@types/lodash": "^4.14.76",
+    "@types/lodash.template": "^4.4.3",
+    "lodash-template": "^1.0.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx)"
+    ]
+  }
+}
