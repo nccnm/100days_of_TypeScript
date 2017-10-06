@@ -1,0 +1,39 @@
+{
+  "name": "day23_cli_output",
+  "version": "1.0.0",
+  "description": "convert from js to typescript\r https://github.com/jprichardson/node-jsonfile",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@types/ansi-styles": "^2.0.30",
+    "@types/escape-string-regexp": "0.0.31",
+    "@types/jest": "^21.1.1",
+    "@types/node": "^8.0.32",
+    "@types/supports-color": "^3.1.0",
+    "ansi-styles": "^3.2.0",
+    "escape-string-regexp": "^1.0.5",
+    "supports-color": "^4.4.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*.(ts|tsx)"
+    ]
+  }
+}
