@@ -1,0 +1,24 @@
+{
+  "name": "day12_wallpaper_everyday",
+  "version": "1.0.0",
+  "description": "https://github.com/oliver-moran/jimp",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "electron": "electron .",
+    "dev": "npm run build && npm run electron",
+    "pack": "electron-packager . \"Wallpaper Everyday\" --platform=win32"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.7.8",
+    "electron-packager": "^9.1.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "wallpaper": "^2.5.0"
+  }
+}
