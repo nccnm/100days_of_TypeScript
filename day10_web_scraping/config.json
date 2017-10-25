@@ -1,0 +1,8 @@
+{
+    "username": "nthai",
+    "password": "aavn123!@#",
+    "baseUrl": "https://mytime.axonactive.vn.local",
+    "loginUrl": "https://mytime.axonactive.vn.local/login.html",
+    "workingHourUrl": "https://mytime.axonactive.vn.local/workinghour.html",
+    "homeUrl": "https://mytime.axonactive.vn.local/home.html"
+}

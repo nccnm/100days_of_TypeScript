@@ -7,6 +7,12 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "day10_web_scraping",    
+      "program": "${workspaceFolder}/day10_web_scraping/index.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "day23_cli_output",
       "program": "${workspaceFolder}/day23_cli_output/index.js"
     },

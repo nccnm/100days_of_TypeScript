@@ -1,0 +1,19 @@
+{
+    "name": "day10_web_scraping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^8.0.46",
+        "@types/puppeteer": "^0.12.0"
+    },
+    "dependencies": {
+        "puppeteer": "^0.12.0"
+    }
+}
